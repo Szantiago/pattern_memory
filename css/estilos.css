@@ -1,0 +1,76 @@
+.cuadrado
+{
+	display: inline-block;
+	background-color: rgba(123, 145, 123, 0.7);
+	border: 2px solid black;
+	margin-top: 1px;
+	margin-left: 5px;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.text
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-style: italic;
+	color: rgba(123, 145, 123, 1);
+}
+
+.esc
+{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#inicio
+{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.texto
+{
+	font-style: italic;
+	font-size: 25px;
+	margin-bottom: 40px;
+	align-content: center;
+	color: rgba(123, 145, 142, 1);
+}
+.puntos
+{
+	color: rgba(123, 145, 123, 1);
+}
+
+#press
+{
+	font-size: 20px;
+	color: red;
+}
+
+body
+{
+	background: url("//www.free-patterns.info/wp-content/uploads/2015/05/creamy-plusses-mix-v28415.png");
+}
+
+.boton {
+  background: #68939e;
+  background-image: -webkit-linear-gradient(top, #68939e, #c7d8e3);
+  background-image: linear-gradient(to bottom, #68939e, #c7d8e3);
+  border-radius: 10px;
+  font-family: Arial;
+  color: rgba(123, 145, 142, 1);
+  font-size: 19px;
+  padding: 9px 20px 10px 20px;
+  border: solid #fcfcfc 3px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background: #879ead;
+  background-image: -linear-gradient(top, #879ead, #a6aaad);
+  background-image: linear-gradient(to bottom, #879ead, #a6aaad);
+  text-decoration: none;
+}
