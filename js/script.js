@@ -86,7 +86,7 @@ $(function()
      }
    }
    return numAleatorios;
-  })(2);
+ })(dimension);
 
 //Funcion para determinar cuando un cuadro que se encuentre dentro del patron mostrado ya sido clickeado
   function aciertoRepetido() {
@@ -151,6 +151,10 @@ var inter;
             if(cont2===aleatorios.length)
             {
               clearInterval(inter);
+              for(var v =0; v<validaAciertos.length; v++)
+              {
+                $("#tabla_"+validaAciertos[v]).css("background-color",randomColor());
+              }
               if(click===1){
                 timer(tiempo);
               }
@@ -233,7 +237,7 @@ var inter;
          +'</p><p>Cantidad de fallas:     '+fallas+' .......... ' +((fallas*5)*-1)+
           '</p><p>____________________________</p>'+
           '<p> Puntuacion parcial: '+(puntuacion+(posCorrectas*15)-(fallas*5))+'</p>'+
-          '<p> <font color="green"><small>Bonus por aciertos patrones completos: </small> +' + (cuentaBonus*20) + '</font></p>'+
+          '<p> <font color="green"><small>Bonus por aciertos patrones completos: </small> ' +cuentaBonus+'-> +'+ (cuentaBonus*20) + '</font></p>'+
           '</p><p>____________________________</p>'+
           '<p> Puntuacion Total: '+((cuentaBonus*20)+puntuacion+(posCorrectas*15)-(fallas*5))+'</p>',
         width: 400,
@@ -353,6 +357,7 @@ var des;
     {
       $("#press").show();
       nom_div("press").innerHTML = ("-10");
+
     }
   });
 
