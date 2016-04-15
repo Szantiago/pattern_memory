@@ -20,7 +20,7 @@ El jugador podra seleccionar cualquiera de las figuras del juego lo cual tendra 
 
 ![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/248K3-.gif)
 
-|       _Oro_     |       _Plata_     |     _Cobre_      |
+|       _Oro_     |       _Plata_     | _Cobre_      |
 |-----------------|:-----------------:|-----------------:|
 | ![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/imagenes/medalla_oro.png) |  ![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/imagenes/medalla_plata.png) | ![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/imagenes/medalla_bronce.png) |
 | _Nivel 8 a 12_ |    _Nivel 5 a 7_   |   _Nivel 1 a 4_ |
