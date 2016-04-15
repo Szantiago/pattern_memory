@@ -44,10 +44,15 @@
 	color: rgba(123, 145, 123, 1);
 }
 
-#press
+.bad
 {
 	font-size: 20px;
 	color: red;
+}
+.rigth
+{
+	font-size: 20px;
+	color: green;
 }
 
 body
