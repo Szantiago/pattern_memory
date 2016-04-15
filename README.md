@@ -30,10 +30,11 @@ El jugador podra seleccionar cualquiera de las figuras del juego lo cual tendra 
 La partida terminara cuando:
 - El tiempo llegue a 0
 
-![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/timer.png)
+![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/timer.JPG)
 
 - El nivel 12-3 sea superado
-![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/termina_partida.JPG)
+
+![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/terminar_partida.JPG)
 
 - Cuando el jugador decida terminar la partida oprimiendo el boton terminar partida
 
