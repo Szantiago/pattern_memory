@@ -237,7 +237,7 @@ var inter;
          +'</p><p>Cantidad de fallas:     '+fallas+' .......... ' +((fallas*5)*-1)+
           '</p><p>____________________________</p>'+
           '<p> Puntuacion parcial: '+(puntuacion+(posCorrectas*15)-(fallas*5))+'</p>'+
-          '<p> <font color="green"><small>Bonus por aciertos patrones completos: </small> ' +cuentaBonus+'-> +'+ (cuentaBonus*20) + '</font></p>'+
+          '<p> <font color="green"><small>Bonus por aciertos patrones completos: </small> ' +cuentaBonus+'-> +'+ (cuentaBonus*25) + '</font></p>'+
           '</p><p>____________________________</p>'+
           '<p> Puntuacion Total: '+((cuentaBonus*20)+puntuacion+(posCorrectas*15)-(fallas*5))+'</p>',
         width: 400,
