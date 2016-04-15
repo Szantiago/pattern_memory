@@ -8,6 +8,9 @@ El juego consta de 12 niveles cada uno con 3 sub-niveles y un tiempo para cada n
 
 ![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/pattern_memory.gif)
 
+![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/swNFJM.gif)
+
+
 #- Puntaje
 El jugador podra seleccionar cualquiera de las figuras del juego lo cual tendra como resultado la suma o disminución de su puntuación de la siguiente manera
 
