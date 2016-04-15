@@ -58,8 +58,8 @@ var tabla = "",                         //Contiene la tabla y sus elementos
     nivel=1,                            //nivel de juego inicia 1
     dimension=nivel+1,                  //dimension de la tabla
     sub_nivel=1,
-    fallas=0,                           //numero de desaciertos que tenga el usuairo
-    aciertos=0,                         //numero de aciertos que tenga el usuairo
+    fallas=0,                           //numero de desaciertos que tenga el usuario
+    aciertos=0,                         //numero de aciertos que tenga el usuario
     validaAciertos=[],                  //contiene los aciertos en el orden que el usuario los encuentre
     li,                                 //contiene el id del cuadro que clickea el usuario
     tamano=100,                         //tamaño inicioal de los cuadros de la tabla del juego
@@ -253,7 +253,28 @@ function iniciaPartida()
 
 ```
 
-El evento del boton inicio dara paso al juego asi como tambien muestra varios elementos, despues de ser precionado la primer vez para accionar el juego, toma el nombre de Repetir Patron, que lo que hara es mostrar nuevamente el patron dado en el nivel, y dara valores a algunas variables que ayudaran a determinar el tiempo
+- Función para determinar cuando el orden de las figuras seleccionadas por el jugador sea el patron correcto
+```javascript
+function patronCorrecto() {
+  for(var y=0; y<aleatorios.length; y++){
+    if (aleatorios[y]===Number(validaAciertos[y])) {
+      posCorrectas++;
+      bonus++;
+      if(bonus===aleatorios.length){
+        $("#bonus").fadeIn();
+        $("#bonus").fadeOut();
+        cuentaBonus++;
+        if (validaAciertos.length===aleatorios.length) {
+          bonus=0;
+        }
+      }
+      nom_div("patron").innerHTML = ("<h3>Aciertos de patron: "+posCorrectas+"</h3>");
+
+    }
+    }
+}
+```
+- El evento del boton inicio dara paso al juego asi como tambien muestra varios elementos, despues de ser precionado la primer vez para accionar el juego, toma el nombre de Repetir Patron, que lo que hara es mostrar nuevamente el patron dado en el nivel, y dara valores a algunas variables que ayudaran a determinar el tiempo
 
 ```javascript
 var des;
