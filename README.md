@@ -15,7 +15,7 @@ El jugador podra seleccionar cualquiera de las figuras del juego lo cual tendra 
 - Si elige una figura y su posicion es correcta ganara 15 puntos
 - Si acierta en el patron como se le mostro ganara 25 puntos extra
 
-![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/248k3-.gif)
+![ScreenShot](https://raw.github.com/szantiago/pattern_memory/gh-pages/img_md/248K3-.gif)
 
 |       _Oro_     |       _Plata_     |     _Cobre_      |
 |-----------------|:-----------------:|-----------------:|
