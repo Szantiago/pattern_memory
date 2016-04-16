@@ -277,7 +277,6 @@ function patronCorrecto() {
 - El evento del boton inicio dara paso al juego asi como tambien muestra varios elementos, despues de ser precionado la primer vez para accionar el juego, toma el nombre de Repetir Patron, que lo que hara es mostrar nuevamente el patron dado en el nivel, y dara valores a algunas variables que ayudaran a determinar el tiempo
 
 ```javascript
-var des;
   $("#inicio").click(function()
   {
     $("#inicio").prop('disabled', true);
