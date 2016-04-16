@@ -339,7 +339,6 @@ var inter;
   }
 
 //Evento del boton inicio
-var des;
   $("#inicio").click(function()
   {
     $("#inicio").prop('disabled', true);
